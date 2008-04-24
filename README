@@ -1,5 +1,6 @@
 NAME
-    Geo::Google::PolylineEncoder - encode lat/lngs to Google Maps Polylines
+    Test::Approx - compare two strings for equality using Levenshtein
+    distances
 
 SYNOPSIS
       use Test::Approx 'no_plan';

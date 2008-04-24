@@ -1,9 +1,9 @@
 ---
 name: Test-Approx
-version: 0.01
+version: 0.02
 author:
   - 'Steve Purkis <spurkis@cpan.org>'
-abstract: encode lat/lngs to Google Maps Polylines
+abstract: compare two strings for equality using Levenshtein distances
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
@@ -18,7 +18,7 @@ build_requires:
 provides:
   Test::Approx:
     file: lib/Test/Approx.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
